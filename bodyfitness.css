@@ -1,0 +1,22 @@
+body{
+   background-image:url(fitness.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover; 
+    background-attachment:fixed ;
+
+   
+}
+#just{
+    color: white;
+    font-size: 90px;
+}
+#juss{
+    color: white;
+    font-size: 90px;
+}
+#help{
+    background-color: white;
+    color: black;
+    font-size: 60px;
+    border-radius: 5px;
+}
