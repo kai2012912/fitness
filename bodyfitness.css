@@ -1,5 +1,5 @@
 body{
-   background-image:url(fitness.jpeg);
+   background-image:url(images/thumb-1920-608245.jpg);
    background-repeat: no-repeat;
    background-size: cover; 
     background-attachment:fixed ;
@@ -7,16 +7,19 @@ body{
    
 }
 #just{
-    color: white;
+    color: black;
     font-size: 90px;
 }
 #juss{
-    color: white;
+    color: black;
     font-size: 90px;
 }
 #help{
-    background-color: white;
+    background-color:rgb(114, 114, 114);
     color: black;
     font-size: 60px;
-    border-radius: 5px;
+    border-radius: 25px;
+}
+#help:hover{
+    color: rgb(31, 30, 30);
 }
