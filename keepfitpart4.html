@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="keepfit.css" />
+  </head>
+  <body>
+    <h3 id="like">Home section</h3>
+    <nav class="navbar">
+      <ul class="know">
+        <li style="border: 1px ;"><a href="keepfitpart4.html" class="blue">Home</a></li>
+        <li><a href="aboutuskeepfi.htm" class="blue">About us</a></li>
+        <li><a href="getmovingforkeepfit.html" class="blue">Get moving</a></li>
+        <li><a href="healthykeep.html" class="blue">Healthy eats</a></li>
+        <li><a href="keepfit.html" class="blue">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <div id="day-selector">
+      <!-- Buttons to change days -->
+      <button onclick="changeDay(1)" class="dog">Day 1</button>
+      <button onclick="changeDay(2)"class="dog">Day 2</button>
+      <button onclick="changeDay(3)"class="dog">Day 3</button>
+      <button onclick="changeDay(4)"class="dog">Day 4</button>
+      <button onclick="changeDay(5)"class="dog">Day 5</button>
+      <button onclick="changeDay(6)"class="dog">Day 6</button>
+      <button onclick="changeDay(7)"class="dog">Day 7</button>
+      <button onclick="changeDay(8)"class="dog">Day 8</button>
+      <button onclick="changeDay(9)"class="dog">Day 9</button>
+      <button onclick="changeDay(10)"class="dog">Day 10</button>
+      <button onclick="changeDay(11)"class="dog">Day 11</button>
+      <button onclick="changeDay(12)"class="dog">Day 12</button>
+      <button onclick="changeDay(13)"class="dog">Day 13</button>
+      <button onclick="changeDay(14)"class="dog">Day 14</button>
+      <button onclick="changeDay(15)"class="dog">Day 15</button>
+      <button onclick="changeDay(16)"class="dog">Day 16</button>
+      <button onclick="changeDay(17)"class="dog">Day 17</button>
+      <button onclick="changeDay(18)"class="dog">Day 18</button>
+      <button onclick="changeDay(19)"class="dog">Day 19</button>
+      <button onclick="changeDay(20)" class="dog">Day 20</button>
+      <button onclick="changeDay(21)"class="dog">Day 21</button>
+      <button onclick="changeDay(22)"class="dog">Day 22</button>
+      <button onclick="changeDay(23)"class="dog">Day 23</button>
+      <button onclick="changeDay(24)"class="dog">Day 24</button>
+      <button onclick="changeDay(25)"class="dog">Day 25</button>
+      <button onclick="changeDay(26)"class="dog">Day 26</button>
+      <button onclick="changeDay(27)"class="dog">Day 27</button>
+      <button onclick="changeDay(28)"class="dog">Day 28</button>
+      <button onclick="changeDay(29)"class="dog">Day 29</button>
+      <button onclick="changeDay(30)"class="dog">Day 30</button>
+  </div>
+
+
+  <div id="day-content">
+      <!-- Content for each day will be displayed here -->
+  </div>
+  
+  <!-- Timer display and controls -->
+  <div id="timer-display-container">
+      <h2 id="timer-display">Remaining Time: 0:00</h2>
+  </div>
+  <div id="controls">
+  <button id="start-exercise" onclick="startCurrentExercise()">Start</button>
+  <button id="pause-exercise" onclick="pauseExercise()">Pause</button>
+  <button id="next-exercise" onclick="nextExercise()">Next Exercise</button>
+</div>
+
+<footer>
+      <p>Created by You</p>
+  </footer>
+  
+  
+  <script src="keepfit.js"></script>
+</body>
+</html>

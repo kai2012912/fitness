@@ -2,8 +2,8 @@
     color: rgb(31, 30, 30);
 }
 .navbar{
-    border: 1px solid  red; 
-    background-color: red
+    border: 1px solid  gray; 
+    background-color: gray
 }
 .know{
     list-style-type: none;
@@ -15,10 +15,9 @@
     color: white;
     margin: 10px;
 }
-.why{
-    text-align: center;
-
-}
 body{
-   background-color: orange; 
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover; 
+     background-attachment:fixed ;
 }
