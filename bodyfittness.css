@@ -1,34 +1,58 @@
-.blue:hover{
-    color: rgb(31, 30, 30);
+.blue:hover {
+  color: rgb(31, 30, 30);
 }
-.navbar{
-    border: 1px solid  gray; 
-    background-color: gray
+.navbar {
+  border: 1px solid gray;
+  background-color: gray;
 }
-.know{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+.know {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
-.blue{
-    text-decoration: none;
-    color: white;
-    margin: 10px;
+.blue {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
 }
-body{
-background-color: orange;
-    background-repeat: no-repeat;
-    background-size: cover; 
-     background-attachment:fixed ;
+body {
+  background-color: orange;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.dog{
-    border: 1px solid red;
-    background-color: black;
-    color: white;
+.dog {
+  border: 1px solid red;
+  background-color: black;
+  color: white;
 }
-.po{
-    font-size: medium;
+.po {
+  font-size: medium;
 }
-#car{
-    color: blue;
+#car {
+  color: blue;
+}
+.ty {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  border: 1px solid red;
+  background-color: gray;
+  text-align: center;
+  margin: 10px;
+}
+.ty :hover {
+  color: rgb(31, 30, 30);
+}
+.mk {
+  text-align: center;
+}
+.po {
+  text-align: center;
+  font-size: large;
+}
+#timerdisplay {
+  animation-name: slideright;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }

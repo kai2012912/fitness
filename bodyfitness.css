@@ -1,26 +1,37 @@
-body{
-   background-image:url(images/thumb-1920-608245.jpg);
-   background-repeat: no-repeat;
-   background-size: cover; 
-    background-attachment:fixed ;
-    background-color: orange;
-
-   
+body {
+  background-image: url(images/thumb-1920-608245.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: orange;
 }
-#just{
-    color: black;
-    font-size: 90px;
+#just {
+  color: black;
+  font-size: 90px;
 }
-#juss{
-    color: black;
-    font-size: 90px;
+#juss {
+  color: black;
+  font-size: 90px;
 }
-#help{
-    background-color:rgb(173, 90, 90);
-    color: black;
-    font-size: 60px;
-    border-radius: 25px;
+#help {
+  background-color: rgb(173, 90, 90);
+  color: black;
+  font-size: 60px;
+  border-radius: 25px;
 }
-#help:hover{
-    color: rgb(31, 30, 30);
+#help:hover {
+  color: rgb(31, 30, 30);
+}
+.fried {
+  animation-name: slideright;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes slideright {
+  from {
+    transform: translatex(300%);
+  }
+  to {
+    transform: translatex(0);
+  }
 }
